@@ -1,0 +1,58 @@
+/* @font-face {
+  font-family: "Get Schwifty";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3089507/get-schwifty.woff")
+    format("woff");
+} */
+
+.card {
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 80vw;
+  margin: 1em auto;
+  position: relative;
+  box-shadow: 5px 5px 5px var(--pickleGreen);
+}
+.card--highlight {
+  /*background: #556e3c;*/
+  background: linear-gradient(
+    90deg,
+    var(--portalShadow),
+    var(--introHighlight),
+    var(--portalBackground)
+  );
+}
+
+.card__image {
+  margin: 1em auto;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px var(--pickleGreen);
+}
+
+.card__name {
+  font-family: Get Schwifty;
+  font-size: 3rem;
+  color: var(--introBlue);
+  text-shadow: 5px 5px 5px var(--pickleGreen);
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+}
+
+.card__showDetailsBtn {
+  background-color: yellowgreen;
+  color: green;
+  margin: 1em;
+}
+
+.card__bookmark {
+  width: 4em;
+  height: 4em;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.card--bookmarked {
+  fill: #556e3c;
+  stroke: black;
+  background-color: aliceblue;
+  border-radius: 50px;
+}

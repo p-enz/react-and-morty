@@ -1,0 +1,27 @@
+.header__h1 {
+  margin: 0;
+  padding: 0.5em 0;
+  color: var(--introBlue);
+  font-family: Get Schwifty;
+  font-size: 4.5rem;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+}
+
+.header__h2 {
+  margin: 0;
+  padding: 0.5em 0;
+  font-size: 4.7rem;
+  font-family: Get Schwifty;
+  z-index: -1;
+  position: absolute;
+  top: -0.1em;
+  text-shadow: 5px 5px 15px var(--introBlue);
+  box-shadow: 5px 5px 5px var(--pickleGreen);
+
+  background: linear-gradient(
+    90deg,
+    var(--portalShadow),
+    var(--introHighlight),
+    var(--portalBackground)
+  );
+}
